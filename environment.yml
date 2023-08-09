@@ -1,0 +1,13 @@
+name: datasetnameenv
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - pynrrd
+  - matplotlib
+  - python = 3.9
+  - scikit-image
+  - scipy
+  - ipykernel
+  - tifffile
