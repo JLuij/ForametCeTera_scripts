@@ -1,13 +1,14 @@
-name: datasetnameenv
+name: ForametCeTera
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - pandas
-  - pynrrd
-  - matplotlib
   - python = 3.9
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pynrrd
   - scikit-image
   - scipy
-  - ipykernel
-  - tifffile
+  - seaborn
+  - tqdm
+  - ipywidgets
